@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Log in - W3Schools</title>
+        <link rel="icon" href="./images/iconW3S.png" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <!--Navbar-->
+        <nav class="container">
+            <a href="./">
+                <img src="./images/w3schools.png" alt="W3Schools Logo" class="nav_logo" />
+
+
+            </a>
+            
+        </nav>
+
+        <!--Log in  Form-->
+        <main>
+            <div class="main_container">
+                <h1>Log in</h1>
+                <form id="main_form">
+                    <label class="spacing"  for="email">
+                        <p><strong>Email</strong> <span>Need an account? <a href="index2.html" class="inout">Sign up</a></p> </span>
+                        <input type="email" name="email" id="email" required placeholder="eg: doe.john@example.com" />
+                    </label>
+                    <label class="spacing" for="password">
+                        <p><strong>Password</strong></p>
+                        <input type="password" name="password" id="password" required placeholder="eg: doesjohn7doedoe" />
+                    </label>
+                    
+                    <button type="submit" id="login_button">
+                        <b>Log in</b>
+                        
+                    </button>
+                    <br>
+                    <a href="https://profile.w3schools.com/reset" class="forgotpassword">Forgot Password?</a>
+                </form>
+
+            </div>
+        </main>
+
+        <!-- Form entries -->
+		<table id="table" class="container">
+			<tr>
+				<th>Entry number</th>
+				<th>Name</th>
+                <th>Password</th>
+			</tr>
+		</table>
+
+        <!--Footer-->
+        <footer>
+            <ul class="container">
+                <li class="footer_item">
+                    <p>&copy; 1999 - 2022</p>
+                </li>
+                <li class="footer_item">
+                    <a href="https://w3schools.com" class="footer_link">W3schools.</a>
+                </li>
+                <li class="footer_item">
+                    <p>All rights reserved.</p>
+                </li>
+                <li class="footer_item">
+                    <a href="#" class="footer_link">Cookie policy</a>,
+                    
+                </li>
+                <li class="footer_item">
+                    <a href="#" class="footer_link">Privacy</a>
+                </li>
+                <li class="footer_item">
+                    and <a href="#" class="footer_link">Terms</a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+
+
+</html>
