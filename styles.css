@@ -115,6 +115,8 @@ main h1 {
 	gap: 1.5em;
 	text-align: left;
 	
+
+	
 	
 }
 
@@ -164,12 +166,14 @@ input {
 	color: #8181819a;
 }
 
-.main__formCta > p {
+.main__formCta {
 	text-align: center;
 	font-size: 11.5px;
 }
 
-
+main > ul.checkmarks{
+	font-size: px;
+}
 
 
 #login_button {
@@ -186,16 +190,36 @@ input {
 	border-radius: 40px;
 	width: 100%;
 
-	
+}
 
-
+#login_button:hover{
+	background-color: #059661;
 }
 
 .spacing label{
 	margin-top: 15%;
 }
 
-
+#help_button{
+	background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 13px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15.5px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 50px;
+	
+	margin-right: 1%;
+	margin-bottom: 0.5%;
+	
+	
+    position:static;
+	float: left;
+}
 
 table {
 	border-collapse: collapse;
@@ -207,6 +231,8 @@ td {
 	border: solid 1px #818181;
 	text-align: center;
 	padding: 0.25em;
+
+
 }
 
 footer {
@@ -224,7 +250,7 @@ footer > ul.container {
 	flex-wrap: wrap;
 	list-style: none;
 	font-size: 12px;
-	margin-bottom: 1%;
+	margin-bottom: 0%;
 	
 }
 
