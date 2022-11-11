@@ -1,3 +1,4 @@
+
 /**
  * JS Code to get data from form and append to a table
  * Clears the form once the data is appended
@@ -5,7 +6,7 @@
 
 
 // Get the required elements form the DOM
-const loginForm = document.querySelector('.main__form');
+const loginForm = document.querySelector('#main_form');
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('password');
 const table = document.getElementById('table');
@@ -19,11 +20,13 @@ const handleAddNewUser = (e) => {
     e.preventDefault();
     // Get the email value from the input
     const email = emailInput.value;
+    
     // Create a template to add the new entry
     const newEntry = `
         <tr>
             <td>${count}.</td>
             <td>${email}</td>
+            <td>${password.value}</td>
         </tr>
     `
     // Append new entry to form as html
